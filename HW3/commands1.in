@@ -1,0 +1,12 @@
+GetEventsBySport Climbing
+GetEventsBySport Karate
+GetEventsBySport Surfing
+GetEventsBySport SkateBoarding
+GetWinnersAndCountriesBySportAndEvent SkateBoarding BipedalSkating
+GetWinnersAndCountriesBySportAndEvent Climbing Animals50m
+GetAthleteWithMostMedals
+GetAthleteWithMostGoldMedals
+GetCountryWithMostMedals
+GetCountryWithMostGoldMedals
+GetSportAndEventByAthlete PrincessPeach
+GetSportAndEventByAthlete KnucklesTheEchidna

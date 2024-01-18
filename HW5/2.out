@@ -1,0 +1,18 @@
+AddActivity 11011000 Warmup
+AddActivity 11011015 Running
+AddActivity 11011500 Cycling
+AddActivity 11012100 Cooldown
+AddActivity 11012230 Walking
+PrintSkipList
+(S3) empty
+(S2) 11012100:Cooldown
+(S1) 11011015:Running 11012100:Cooldown
+(S0) 11011000:Warmup 11011015:Running 11011500:Cycling 11012100:Cooldown 11012230:Walking
+RemoveActivity 11022100 NoActivityError
+RemoveActivity 11012100 Cooldown
+AddActivity 11012300 Swimming
+GetActivitiesBetweenTimes 11010900 11012200 11011000:Warmup 11011015:Running 11011500:Cycling
+PrintSkipList
+(S2) empty
+(S1) 11011015:Running 11012300:Swimming
+(S0) 11011000:Warmup 11011015:Running 11011500:Cycling 11012230:Walking 11012300:Swimming
