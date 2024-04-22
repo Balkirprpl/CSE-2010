@@ -1,6 +1,0 @@
-GetEventsBySport Skeleton Mens Womens
-GetEventsBySport AlpineSkiing MensSlalom WomensSlalom
-GetWinnersAndCountriesBySportAndEvent AlpineSkiing WomensSlalom FridaHansdotter:Sweden WendyHoldener:Switzerland KatharinaGallhuber:Austria
-GetEventsBySport SpeedSkating Mens10000m Womens3000m
-GetGoldMedalistAndCountryBySportAndEvent SpeedSkating Mens10000m Ted-JanBloemen:Canada
-GetCountryWithMostMedals 4 Netherlands

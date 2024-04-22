@@ -1,7 +1,0 @@
-GetEventsBySport AlpineSkiing
-GetWinnersAndCountriesBySportAndEvent SpeedSkating Mens1500m
-GetSportAndEventByAthlete KjeldNuis
-GetCountryWithMostMedals
-GetCountryWithMostGoldMedals
-GetAthleteWithMostMedals
-GetAthleteWithMostGoldMedals
