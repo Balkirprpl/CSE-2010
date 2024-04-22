@@ -1,0 +1,29 @@
+PrintSkipList
+RemoveActivity 03200930
+GetActivity 03211100
+GetActivitiesBetweenTimes 03231045 03231945 
+GetActivitiesForOneDay 0325
+GetActivitiesFromEarlierInTheDay 03200930
+GetActivitiesBetweenTimes 03200930 03211100
+AddActivity 05122358 HoldingHands
+AddActivity 05122359 PassDataStructures
+AddActivity 05122359 Gaming
+AddActivity 05130001 ContemplateLife
+AddActivity 05130002 CryDeeply
+PrintSkipList
+RemoveActivity 05122358
+RemoveActivity 05130002
+PrintSkipList
+GetActivitiesBetweenTimes 05122359 05130001
+RemoveActivity 05130001
+PrintSkipList
+RemoveActivity 05122359
+PrintSkipList
+AddActivity 05140130 Celebrate
+AddActivity 05142300 CelebrateHarder
+AddActivity 05142359 PrepareForNextSemester
+GetActivitiesForOneDay 0514
+RemoveActivity 05140130
+RemoveActivity 05142300
+RemoveActivity 05142359
+PrintSkipList

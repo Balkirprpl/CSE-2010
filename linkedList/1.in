@@ -1,0 +1,7 @@
+SetProductPrice USBdrive c 10
+SetProductPrice USBdrive b 10
+SetProductPrice USBdrive a 10
+SetShippingCost b 0 0
+SetShippingCost c 0 0
+SetShippingCost a 0 0 
+DisplaySellerList USBdrive

@@ -1,0 +1,15 @@
+GetEventsBySport AlpineSkiing MensDownhill MensSlalom WomensDownhill WomensSlalom
+GetWinnersAndCountriesBySportAndEvent SpeedSkating Mens1500m KjeldNuis:Netherlands PatrickRoest:Netherlands KimMinseok:SouthKorea
+GetSportAndEventByAthlete KjeldNuis SpeedSkating:Mens1000m SpeedSkating:Mens1500m
+GetCountryWithMostMedals 7 Norway
+GetCountryWithMostGoldMedals 3 Germany Netherlands
+GetAthleteWithMostMedals 2 KjeldNuis
+GetAthleteWithMostGoldMedals 2 KjeldNuis
+
+GetEventsBySport AlpineSkiing MensDownhill MensSlalom WomensDownhill WomensSlalom
+GetWinnersAndCountriesBySportAndEvent SpeedSkating Mens1500m KjeldNuis:Netherlands PatrickRoest:Netherlands KimMinseok:SouthKorea
+GetSportAndEventByAthlete KjeldNuis SpeedSkating:Mens1000m SpeedSkating:Mens1500m
+GetCountryWithMostMedals 7 Norway
+GetCountryWithMostGoldMedals 3 Germany Netherlands
+GetAthleteWithMostMedals 2 KjeldNuis
+GetAthleteWithMostGoldMedals 2 KjeldNuis

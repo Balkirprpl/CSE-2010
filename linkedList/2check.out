@@ -1,0 +1,40 @@
+SetProductPrice USBdrive amazon 4.99
+SetProductPrice appleIPhone applestore 1000
+SetProductPrice USBdrive radioshack 5.99
+SetProductPrice USBdrive bestbuy 3.99
+SetProductPrice hdmi2VgaAdapter bestbuy 13.99
+SetProductPrice USBdrive walmart 3.50
+SetProductPrice hdmi2VgaAdapter walmart 12.50
+SetShippingCost amazon 5 10
+SetShippingCost applestore 15 50
+SetShippingCost bestbuy 5 25
+SetShippingCost walmart 10 5
+SetShippingCost radioshack 10 5
+IncreaseInventory USBdrive amazon 5000 5000
+IncreaseInventory USBdrive bestbuy 500 500
+IncreaseInventory USBdrive walmart 2500 2500
+IncreaseInventory USBdrive radioshack 10 10
+IncreaseInventory USBdrive amazon 5000 10000
+IncreaseInventory appleIPhone applestore 100 100
+IncreaseInventory hdmi2VgaAdapter bestbuy 100 100
+IncreaseInventory hdmi2VgaAdapter walmart 1000 1000
+DisplaySellerList USBdrive
+    seller  productPrice  shippingCost  totalCost
+radioshack          5.99          0.00       5.99
+   bestbuy          3.99          5.00       8.99
+    amazon          4.99          5.00       9.99
+   walmart          3.50         10.00      13.50
+DisplaySellerList hdmi2VgaAdapter
+    seller  productPrice  shippingCost  totalCost
+   walmart         12.50          0.00      12.50
+   bestbuy         13.99          5.00      18.99
+DisplaySellerList appleIPhone
+    seller  productPrice  shippingCost  totalCost
+applestore       1000.00          0.00    1000.00
+CustomerPurchase USBdrive radioshack 10 0
+DepletedInventoryRemoveSeller USBdrive radioshack
+DisplaySellerList USBdrive
+    seller  productPrice  shippingCost  totalCost
+   bestbuy          3.99          5.00       8.99
+    amazon          4.99          5.00       9.99
+   walmart          3.50         10.00      13.50

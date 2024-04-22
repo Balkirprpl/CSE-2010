@@ -1,0 +1,12 @@
+AddActivity 03200930 Cycling
+AddActivity 03211100 Jogging
+AddActivity 03231045 Hiking
+AddActivity 03231945 Workout
+GetActivity 03211100 Jogging
+GetActivitiesForOneDay 0323 03231045:Hiking 03231945:Workout
+GetActivitiesFromEarlierInTheDay 03231600 03231045:Hiking
+PrintSkipList
+(S3)
+(S2) 03231945:Workout
+(S1) 03211100:Jogging 03231945:Workout
+(S0) 03200930:Cycling 03211100:Jogging 03231045:Hiking 03231945:Workout
